@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3EFE0;
+    color: #3B3B3B;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #2F4F4F;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #D3DEC4;
+    padding: 10px;
+}
+
+nav a {
+    color: #2F4F4F;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #B5884D;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cta-button {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #C86428;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #8B4513;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.feedback-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #D3DEC4;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+    border-color: #2A5D63;
+}
+
+.feedback-form button {
+    background-color: #C86428;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.feedback-form button:hover {
+    background-color: #8B4513;
+}
+
+.registration-form input {
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation ul li {
+    margin-right: 15px;
+}
+
+.navigation ul li a {
+    color: #3B3B3B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #DAA520;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #F3EFE0;
+}
+
+.about {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.registration-section {
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #D3DEC4;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.registration-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.registration-form input,
+.registration-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+.registration-form input:focus,
+.registration-form textarea:focus {
+    border-color: #2A5D63;
+}
+
+.subscription-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.cta-button {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #C86428;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #8B4513;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+table img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 8px;
+    background-color: #2F4F4F;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 7px;
+}

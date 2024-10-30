@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Watch Our Featured Media">
+    <meta name="author" content="Scotty R. White">
+    <title>Outdoorsman Media - Watch Now</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Watch Our Featured Video</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="WatchNow.html">Watch Now</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Products.html">Products</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+<section class="registration-section">
+    <h2>Register with Outdoorsman Media</h2>
+    <form class="registration-form" action="register.html" method="POST">
+
+        <!-- Full Name Field -->
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+        <!-- Phone Number Field -->
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+
+        <!-- Email Field -->
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <!-- Mailing Address Field -->
+        <label for="mailingAddress">Mailing Address</label>
+        <textarea id="mailingAddress" name="mailingAddress" rows="3" placeholder="Enter your mailing address" required></textarea>
+
+        <!-- Subscription Preference -->
+        <label>Receive Mail-in Ads from Outdoorsman Media?</label>
+        <div class="subscription-options">
+            <input type="radio" id="adsYes" name="ads" value="yes" required>
+            <label for="adsYes">Yes</label>
+
+            <input type="radio" id="adsNo" name="ads" value="no" required>
+            <label for="adsNo">No</label>
+        </div>
+
+        <!-- Username Field -->
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Set a username" required>
+
+        <!-- Password Field -->
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Set a password" required>
+
+        <!-- Submit Button -->
+        <button type="submit" class="cta-button">Register For Outdoorsman Media Exclusive</button>
+
+        <p>You will be able to log-in to your @OutdoorsmanMediaExclusive account post-development.</p>
+    </form>
+</section>
+
+
+    <section class="about">
+        <h2>Why Register?</h2>
+        <p>When you register with us at Outdoorsman Media you will be the first to access our exclusive content <br>
+           post-development. You can expect to receive an email before the formal release date of <br>
+            "Outdoorsman Media Exclusive". This will give you unlimited access to content that is not yet readily <br>
+            available to the public. Get ahead of the curve and show your support by registering for an account<br>
+            at "Outdoorsman Media" to join our exclusive Outdoorsmen Patreon Club. <br>
+            Thank you, <br>
+            Outdoorsman Media Team.
+        </p>
+    </section>
+
+    <div class="button-container">
+        <a href="index.html" class="cta-button">Home</a>
+    </div>
+
+<footer>
+    <p>&copy; 2024 Outdoorsman Media. Scotty R. White. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
